@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import pages from "./pages";
-import Layout from "./common/Layout";
+import Layout from "./common";
 
 const App = () => {
 	return (
