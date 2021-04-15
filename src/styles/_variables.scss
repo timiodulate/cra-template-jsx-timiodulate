@@ -1,0 +1,57 @@
+@use "sass:map";
+
+// Colors
+$colors: (
+	BG: #ffffff,
+	primary: #4285f4,
+	accent: #6ca0f6,
+	body: #262636,
+	body-light1: #707070,
+	body-light2: #a5a5a5,
+	body-light3: #e5e5e5,
+);
+
+@function color($color-name) {
+	@return map-get($map: $colors, $key: $color-name);
+}
+
+// Font Size
+$fontsize: (
+	"title": 30pt,
+	"subtitle": 16pt,
+	"body": 20pt,
+	"cta": 18pt,
+);
+
+// @function font-size($fontsize-name) {
+// 	@return map.get($fontsize, $fontsize-name);
+// }
+
+//Screen Size
+// $large-screen:
+// $small-screen:
+
+// @mixin ScreenSize($size) {
+// 	@media only screen and (max-width: $size)
+// }
+
+// Layout Structure
+// .div-element-name {
+// 	background: orange;
+// 	border-radius: 5px;
+
+// 	@media only screen and (max-width: $large-screen) {
+// 		border-radius: 25px;
+// 	}
+
+// 	@media only screen and (max-width: $small-screen) {
+// 		border-radius: 50px;
+// 	}
+
+// 	&:active {
+// 	}
+// 	&:focus {
+// 	}
+// 	&:hover {
+// 	}
+// }
