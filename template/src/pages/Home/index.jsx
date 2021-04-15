@@ -1,10 +1,10 @@
 import React from "react";
-import Styles from "./index.module.scss";
+// import Styles from "./index.scss";
 
 export default function Home(props) {
 	return (
 		<section>
-			<h1 className={`${Styles.heading}`}>Home</h1>
+			<h1 className="">Home</h1>
 		</section>
 	);
 }

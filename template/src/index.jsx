@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "react-toastify/dist/ReactToastify.css";
 // import { Context } from "./context";
 import App from "./App";
-import "./styles/global.css";
+// import "./styles/global.css";
 
 ReactDOM.render(
 	<React.StrictMode>
