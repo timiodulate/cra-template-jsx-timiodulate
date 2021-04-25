@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import Seo from "./Seo";
-import Navbar from "./Navbar";
+import Header from "./Header";
 import Footer from "./Footer";
 
 export default function Layout({ children, title, description, otherLayout }) {
 	return (
 		<Fragment>
 			<Seo title={title} description={description} />
-			<Navbar />
+			<Header />
 			{children}
 			<Footer />
 		</Fragment>
