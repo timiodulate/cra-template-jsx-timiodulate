@@ -4,7 +4,7 @@
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
 		"bootstrap": "^4.6.0",
-		"eslint": "6.6.0",
+		"eslint": "^7.26.0",
 		"eslint-config-airbnb": "^18.2.0",
 		"eslint-config-prettier": "^6.11.0",
 		"eslint-plugin-import": "^2.22.0",
