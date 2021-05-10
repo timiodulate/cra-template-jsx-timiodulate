@@ -1,18 +1,23 @@
 {
 	"name": "cra-template-timiodulate",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"keywords": [
 		"react",
 		"create-react-app",
 		"template"
 	],
-	"description": "timiodulate Create React App template.",
+	"description": "My personal Create React App template with eslint, prettier, airbnb...",
+	"author": "timiodulate",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/timiodulate/cra-template-timiodulate.git"
+	},
 	"engines": {
 		"node": ">=10"
 	},
 	"bugs": {
-		"url": "https://github.com/facebook/create-react-app/issues"
+		"url": "https://github.com/timiodulate/cra-template-timiodulate.git/issues"
 	},
 	"files": [
 		"template",

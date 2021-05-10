@@ -1,26 +1,41 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "airbnb",
-        "prettier",
-        "prettier/react"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
-    "plugins": ["react", "prettier"],
-    "rules": {
-        "prettier/prettier": "error",
-        "react/no-children-prop": "off",
-        "react/prop-types": "off"
-    }
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"airbnb",
+		"prettier",
+		"prettier/react"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "prettier"],
+	"rules": {
+		"prettier/prettier": [
+			"off",
+			{
+				"endOfLine": "auto"
+			}
+		],
+		"react/no-children-prop": "off",
+		"react/prop-types": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/jsx-fragments": "warn",
+		"no-unused-vars": "warn",
+		"react/no-unescaped-entities": "warn",
+		"react/self-closing-comp": "warn",
+		"consistent-return": "warn",
+		"no-plusplus": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"import/prefer-default-export": "off"
+	}
 }
