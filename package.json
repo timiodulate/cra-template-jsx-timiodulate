@@ -1,6 +1,6 @@
 {
-	"name": "cra-template-timiodulate",
-	"version": "0.2.0",
+	"name": "@timiodulate/cra-template",
+	"version": "1.0.0",
 	"keywords": [
 		"react",
 		"create-react-app",
