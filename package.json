@@ -1,23 +1,24 @@
 {
-	"name": "cra-template-timiodulate",
+	"name": "cra-template-jsx-timiodulate",
 	"version": "1.0.0",
 	"keywords": [
 		"react",
 		"create-react-app",
-		"template"
+		"template",
+		"jsx"
 	],
 	"description": "My personal Create React App template with eslint, prettier, airbnb...",
 	"author": "timiodulate",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/timiodulate/cra-template-timiodulate.git"
+		"url": "https://github.com/timiodulate/cra-template-jsx-timiodulate.git"
 	},
 	"engines": {
 		"node": ">=10"
 	},
 	"bugs": {
-		"url": "https://github.com/timiodulate/cra-template-timiodulate.git/issues"
+		"url": "https://github.com/timiodulate/cra-template-jsx-timiodulate.git/issues"
 	},
 	"files": [
 		"template",
