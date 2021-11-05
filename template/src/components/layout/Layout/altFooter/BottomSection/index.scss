@@ -1,0 +1,35 @@
+.footer {
+	.bottom-section {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 4rem;
+
+		&_nav {
+			&_NavItems {
+				&-NavItem.socialButtons {
+					a {
+						width: 18px;
+						height: 18px;
+
+						svg {
+							width: 18px;
+							height: 18px;
+						}
+					}
+				}
+			}
+		}
+
+		@media (max-width: 768px) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			row-gap: 3.1rem;
+			padding: 3.1rem 0;
+
+			.brandLogoContainer {
+				display: none;
+			}
+		}
+	}
+}

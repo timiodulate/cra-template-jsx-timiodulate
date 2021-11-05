@@ -1,0 +1,30 @@
+/* === Plugin styles === */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/mixins";
+
+@import "./variables";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./fonts";
+
+/* === Icon fonts === */
+@import "~@mdi/font/scss/materialdesignicons";
+
+/* === Template mixins === */
+
+/* === Core Styles === */
+@import "./resets";
+@import "./typography";
+
+/* === Components === */
+@import "./components/buttons";
+
+/* === Layout === */
+// @import "./layout/navbar";
+// @import "./layout/sidebar";
+// @import "./layout/footer";
+// @import "./layout/main-layout";
+
+/* === Pages === */
+@import "./pages/signup";

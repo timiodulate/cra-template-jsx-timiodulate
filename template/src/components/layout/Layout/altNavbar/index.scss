@@ -1,0 +1,45 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 6rem;
+	padding: 0 4.5rem;
+
+	div {
+		display: none;
+		width: fit-content;
+
+		button {
+			margin-right: 1.5rem;
+		}
+
+		.btn-btn {
+			padding: 0.56rem 1.4rem;
+		}
+
+		.navbar-toggle-container {
+			background: transparent;
+			border: none;
+			margin-right: 0;
+			cursor: pointer;
+
+			z-index: 110;
+
+			svg {
+				width: 30.29px;
+				height: 36.52px;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		padding: 0.2rem 1.3rem;
+		height: 5rem;
+
+		div {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
