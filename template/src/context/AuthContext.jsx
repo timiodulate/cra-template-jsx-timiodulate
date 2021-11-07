@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext({});
 
@@ -13,11 +13,7 @@ const AuthContextWrapper = ({ children }) => {
 		editDetails,
 	};
 
-	return (
-		<AuthContext.Provider value={sharedState}>
-			{children}
-		</AuthContext.Provider>
-	);
+	return <AuthContext.Provider value={sharedState}>{children}</AuthContext.Provider>;
 };
 export { AuthContextWrapper };
 

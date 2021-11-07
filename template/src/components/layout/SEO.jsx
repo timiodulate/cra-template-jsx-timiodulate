@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-export default function SEO({ title, descriptin }) {
+export default function SEO({ title }) {
 	// const domain = 'https://site-domain'
-	const formattedTitle = title && title + " - 3hFoundation";
+	const formattedTitle = title && `${title} - 3hFoundation`;
 
 	const description = "3hFoundation";
 	const keywords = "3hFoundation";

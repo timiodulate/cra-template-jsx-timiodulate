@@ -6,8 +6,8 @@ export const useFetch = (url) => {
 
 	useEffect(async () => {
 		const response = await fetch(url);
-		const data = await response.json();
-		const [item] = data.results;
+		const jsonData = await response.json();
+		const [item] = jsonData.results;
 		setData(item);
 		setLoading(false);
 	}, []);

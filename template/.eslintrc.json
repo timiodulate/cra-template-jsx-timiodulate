@@ -34,6 +34,13 @@
 		"react/self-closing-comp": "warn",
 		"consistent-return": "warn",
 		"no-plusplus": "off",
-		"import/prefer-default-export": "off"
+		"import/prefer-default-export": "off",
+		"react/destructuring-assignment": "off",
+		"react/sort-comp": "off",
+		"jsx-a11y/no-static-element-interactions": "off",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"no-console": "off",
+		"no-use-before-define": "off",
+		"func-names": "off"
 	}
 }

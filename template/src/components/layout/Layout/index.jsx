@@ -1,10 +1,11 @@
+import React from "react";
+import FullLayout from "./FullLayout";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
-import Footer from "./FullLayout/Footer";
-// import SEO from "../SEO";
-import { Col, Row } from "react-bootstrap";
+import Footer from "./Footer";
 
-const Layout = ({ children, fullLayout, otherLayout }) => {
+const Layout = (props) => {
+	const { children, fullLayout } = props;
 	let sidebarComponent;
 	let navbarComponent;
 	let footerComponent;
@@ -21,17 +22,8 @@ const Layout = ({ children, fullLayout, otherLayout }) => {
 
 	return (
 		<>
-			{/* <SEO /> */}
 			{fullLayout ? (
-				<main
-					className="d-flex align-items-center justify-content-center auth px-0"
-					style={{
-						minHeight: "100vh",
-						backgroundColor: "#F6F6F6",
-					}}
-				>
-					{children}
-				</main>
+				<FullLayout>{children}</FullLayout>
 			) : (
 				<div
 					style={{ minHeight: "100vh", width: "100vw" }}
@@ -40,7 +32,7 @@ const Layout = ({ children, fullLayout, otherLayout }) => {
 					{sidebarComponent}
 					<div>
 						{navbarComponent}
-						{children}
+						<main>{children}</main>
 						{footerComponent}
 					</div>
 				</div>
